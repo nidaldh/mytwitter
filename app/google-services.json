@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1030458145393",
+    "firebase_url": "https://twitter-nidal.firebaseio.com",
+    "project_id": "twitter-nidal",
+    "storage_bucket": "twitter-nidal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030458145393:android:71b546163e731cda",
+        "android_client_info": {
+          "package_name": "demo.twitter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030458145393-09pibjsiatav83d6rvltfkfum7kru915.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "demo.twitter",
+            "certificate_hash": "97a44e00b77f17a2aebf511b23bd264bd81e8f99"
+          }
+        },
+        {
+          "client_id": "1030458145393-nno2qjcn12gfu8sscuki0hj7mekbj2ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7A68YhKOjtg0ZhSIAKpo_FJOgrD0OlBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030458145393-nno2qjcn12gfu8sscuki0hj7mekbj2ch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
