@@ -39,12 +39,9 @@ class login : AppCompatActivity() {
         })
     }
 
-
     fun LoginToFireBase(email:String,password:String){
-
         mAuth!!.createUserWithEmailAndPassword(email,password)
             .addOnCompleteListener(this){ task ->
-
                 if (task.isSuccessful){
                     Toast.makeText(applicationContext,"Successful login",Toast.LENGTH_LONG).show()
                     saveImage()
@@ -52,7 +49,6 @@ class login : AppCompatActivity() {
                 {
                     Toast.makeText(applicationContext,"fail login",Toast.LENGTH_LONG).show()
                 }
-
             }
 
     }
