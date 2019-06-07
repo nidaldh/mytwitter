@@ -37,6 +37,7 @@ class login : AppCompatActivity() {
         imagePerson.setOnClickListener(View.OnClickListener {
         checkPermission()
         })
+
     }
 
     fun LoginToFireBase(email:String,password:String){
